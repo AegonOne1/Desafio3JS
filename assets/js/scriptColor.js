@@ -1,6 +1,6 @@
 
 const changeColorDiv = document.querySelectorAll('.changeColor');
-changeColorDiv.forEach(div => {
+changeColorDiv.forEach(div => { //para todo div que contenga la clase changecolor haz lo siguiente.
     div.addEventListener('click', function(event){
         event.target.style.backgroundColor = 'black';
     });
